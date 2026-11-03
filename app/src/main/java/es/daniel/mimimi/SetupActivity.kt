@@ -56,7 +56,7 @@ class SetupActivity : Activity() {
             getSystemService(StatusBarManager::class.java).requestAddTileService(
                 ComponentName(this, MimimiTileService::class.java),
                 getString(R.string.tile_label),
-                Icon.createWithResource(this, android.R.drawable.ic_menu_edit),
+                Icon.createWithResource(this, R.drawable.ic_mimimi_mono),
                 mainExecutor,
             ) { }
         } else {
