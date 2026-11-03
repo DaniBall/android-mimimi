@@ -5,10 +5,12 @@
         android:label="@string/app_name"
         android:allowBackup="false">
 
-        <!-- Sin MAIN/LAUNCHER: la app no tiene icono, solo vive en el menú de selección -->
+        <!-- Sin MAIN/LAUNCHER: la app no tiene icono, vive en el menú de selección, en Compartir y en ajustes rápidos -->
         <activity
             android:name=".MimimiActivity"
             android:exported="true"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
             android:label="@string/action_label"
             android:theme="@android:style/Theme.Translucent.NoTitleBar">
             <intent-filter>
@@ -16,7 +18,23 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="text/plain" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
         </activity>
+
+        <service
+            android:name=".MimimiTileService"
+            android:exported="true"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:label="@string/tile_label"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
 
     </application>
 </manifest>

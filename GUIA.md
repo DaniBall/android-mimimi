@@ -35,6 +35,19 @@ Reglas de transformación:
 - Otras vocales acentuadas (`ü`, `à`…) → `i` / `I`
 - El resto de caracteres no cambian.
 
+### Apps donde no se puede seleccionar texto (WhatsApp, Claude…)
+
+Algunas apps no usan el menú de selección estándar de Android (en WhatsApp se marca el bocadillo entero; en Claude solo aparece *Copiar* y *Seleccionar todo*). Hay dos alternativas:
+
+**A) Compartir → Mimimi**
+1. Mantén pulsado el mensaje y pulsa **Compartir** (en WhatsApp: ⋮ → *Compartir*, o selecciónalo desde otra app que lo permita).
+2. Elige **Mimimi** en la lista. El resultado queda copiado.
+
+**B) Botón de ajustes rápidos (la más cómoda)**
+1. Una sola vez: despliega los ajustes rápidos (desliza dos veces desde arriba), pulsa ✏️ *Editar* y arrastra **Mimimi portapapeles** a tus botones (requiere Android 7+).
+2. Copia el mensaje normalmente (en WhatsApp: mantén pulsado → icono de copiar).
+3. Pulsa el botón **Mimimi portapapeles**. El texto del portapapeles se transforma y ya puedes pegarlo.
+
 ## 4. Actualizar y desinstalar
 
 - **Actualizar:** descarga el nuevo `mimimi.apk` de la Release y vuelve a instalarlo encima.

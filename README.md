@@ -39,6 +39,8 @@ Mimimi es una app Android **sin interfaz y sin icono**. Se integra en el menú c
 2. En el menú flotante pulsa **⋮** → **Mimimi**.
 3. Pega el resultado donde quieras.
 
+¿La app no deja seleccionar texto (WhatsApp, Claude…)? Usa **Compartir → Mimimi** o copia el texto y pulsa el botón **Mimimi portapapeles** de los ajustes rápidos. Detalles en [GUIA.md](GUIA.md#apps-donde-no-se-puede-seleccionar-texto-whatsapp-claude).
+
 ## 🔄 Reglas de transformación
 
 | Entrada | Salida |
