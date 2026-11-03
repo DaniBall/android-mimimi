@@ -18,7 +18,7 @@ class MimimiActivity : Activity() {
 
     companion object {
         /** Si es true y el campo es editable, además de copiar se reemplaza la selección. */
-        const val REPLACE_IN_EDITABLE = false
+        const val REPLACE_IN_EDITABLE = true
         const val ACTION_CLIPBOARD = "es.daniel.mimimi.CLIPBOARD"
     }
 

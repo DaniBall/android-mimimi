@@ -37,7 +37,7 @@ Mimimi es una app Android **casi sin interfaz** (solo una pantalla de configurac
 
 1. Mantén pulsado un texto para seleccionarlo.
 2. En el menú flotante pulsa **⋮** → **Mimimi**.
-3. Pega el resultado donde quieras.
+3. Pega el resultado donde quieras. En campos de escritura (p. ej. el cuadro de mensaje de WhatsApp) el texto **se reemplaza directamente**.
 
 ¿La app no deja seleccionar texto (WhatsApp, Claude…)? Copia el texto y pulsa el botón **Mimimi portapapeles** de los ajustes rápidos. Detalles en [GUIA.md](GUIA.md#apps-donde-no-se-puede-seleccionar-texto-whatsapp-claude).
 
@@ -76,7 +76,7 @@ adb shell am start -a android.intent.action.PROCESS_TEXT -t text/plain --es andr
 
 ### Reemplazar el texto en campos editables
 
-Pon `REPLACE_IN_EDITABLE = true` en [`MimimiActivity.kt`](app/src/main/java/es/daniel/mimimi/MimimiActivity.kt) para que, además de copiar, sustituya la selección en campos de texto editables.
+Activado por defecto. Pon `REPLACE_IN_EDITABLE = false` en [`MimimiActivity.kt`](app/src/main/java/es/daniel/mimimi/MimimiActivity.kt) para que solo copie al portapapeles sin sustituir la selección.
 
 ## 🤖 Integración continua
 

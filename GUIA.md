@@ -35,6 +35,15 @@ Reglas de transformación:
 - Otras vocales acentuadas (`ü`, `à`…) → `i` / `I`
 - El resto de caracteres no cambian.
 
+### Escribir en mimimi (WhatsApp, Telegram…)
+
+En los **campos de escritura**, Mimimi **reemplaza el texto seleccionado** directamente (además de copiarlo):
+1. Escribe o pega tu mensaje en el cuadro de texto.
+2. Selecciónalo (mantén pulsado → *Seleccionar todo*).
+3. Pulsa ⋮ → **Mimimi**. El texto se transforma en el sitio; solo queda enviarlo.
+
+Para responder con burla a un mensaje de WhatsApp: cópialo, pégalo en tu cuadro de texto, selecciónalo y pulsa Mimimi.
+
 ### Apps donde no se puede seleccionar texto (WhatsApp, Claude…)
 
 Algunas apps no usan el menú de selección estándar de Android (en WhatsApp se marca el bocadillo entero; en Claude solo aparece *Copiar* y *Seleccionar todo*). Hay dos alternativas:
