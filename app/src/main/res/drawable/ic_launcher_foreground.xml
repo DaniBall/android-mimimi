@@ -1,6 +1,14 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp" android:height="108dp"
     android:viewportWidth="108" android:viewportHeight="108">
-    <path android:fillColor="#FFFFFF" android:pathData="M36,30 H72 A10,10 0 0 1 82,40 V62 A10,10 0 0 1 72,72 H48 L36,84 V72 A10,10 0 0 1 26,62 V40 A10,10 0 0 1 36,30 Z" />
-    <path android:fillColor="#7C4DFF" android:pathData="M39,46 h6 v18 h-6 z M51,46 h6 v18 h-6 z M63,46 h6 v18 h-6 z M42,35.4 a3.6,3.6 0 1 1 0,7.2 a3.6,3.6 0 1 1 0,-7.2 z M54,35.4 a3.6,3.6 0 1 1 0,7.2 a3.6,3.6 0 1 1 0,-7.2 z M66,35.4 a3.6,3.6 0 1 1 0,7.2 a3.6,3.6 0 1 1 0,-7.2 z" />
+    <group android:pivotX="54" android:pivotY="54" android:scaleX="1.15" android:scaleY="1.15" android:translateX="2" android:translateY="-2">
+    <path android:fillColor="#9E9E9E" android:pathData="M24,52 a9,9 0 1 1 18,0 a9,9 0 1 1 -18,0 z M50,51 a9,9 0 1 1 18,0 a9,9 0 1 1 -18,0 z" />
+    <path android:fillColor="#F48FB1" android:pathData="M27.5,52 a5.5,5.5 0 1 1 11.0,0 a5.5,5.5 0 1 1 -11.0,0 z M53.5,51 a5.5,5.5 0 1 1 11.0,0 a5.5,5.5 0 1 1 -11.0,0 z" />
+    <path android:fillColor="#9E9E9E" android:pathData="M30,66 a16,16 0 1 1 32,0 a16,16 0 1 1 -32,0 z" />
+    <path android:fillColor="#212121" android:pathData="M37.8,63 a2.2,2.2 0 1 1 4.4,0 a2.2,2.2 0 1 1 -4.4,0 z M49.8,63 a2.2,2.2 0 1 1 4.4,0 a2.2,2.2 0 1 1 -4.4,0 z" />
+    <path android:fillColor="#F48FB1" android:pathData="M43.4,70 a2.6,2.6 0 1 1 5.2,0 a2.6,2.6 0 1 1 -5.2,0 z" />
+    <path android:strokeColor="#212121" android:strokeWidth="0.9" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M41,71 L29,69 M41,73 L29,75 M51,71 L63,69 M51,73 L63,75" />
+    <path android:fillColor="#FFFFFF" android:pathData="M51,30 H73 A7,7 0 0 1 80,37 A7,7 0 0 1 73,44 H57 L50,51 L52,44 H51 A7,7 0 0 1 44,37 A7,7 0 0 1 51,30 Z" />
+    <path android:strokeColor="#6A1B9A" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M48.5,40 V34.6 M48.5,36.4 q0,-1.8 1.5,-1.8 q1.5,0 1.5,1.8 V40 M51.5,36.4 q0,-1.8 1.5,-1.8 q1.5,0 1.5,1.8 V40 M56.3,40 V35 M58.099999999999994,40 V34.6 M58.099999999999994,36.4 q0,-1.8 1.5,-1.8 q1.5,0 1.5,1.8 V40 M61.099999999999994,36.4 q0,-1.8 1.5,-1.8 q1.5,0 1.5,1.8 V40 M65.89999999999999,40 V35 M67.69999999999999,40 V34.6 M67.69999999999999,36.4 q0,-1.8 1.5,-1.8 q1.5,0 1.5,1.8 V40 M70.69999999999999,36.4 q0,-1.8 1.5,-1.8 q1.5,0 1.5,1.8 V40 M75.49999999999999,40 V35 M56.3,32.6 h0.01 M65.89999999999999,32.6 h0.01 M75.49999999999999,32.6 h0.01" />
+    </group>
 </vector>
