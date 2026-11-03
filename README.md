@@ -19,7 +19,7 @@
 
 ## ✨ Qué es
 
-Mimimi es una app Android **sin interfaz y sin icono**. Se integra en el menú contextual que aparece al seleccionar texto en cualquier app (WhatsApp, Telegram, Chrome, Notas…). Al pulsar **Mimimi**, el texto seleccionado se transforma y se **copia al portapapeles** listo para pegar.
+Mimimi es una app Android **casi sin interfaz** (solo una pantalla de configuración inicial). Se integra en el menú contextual que aparece al seleccionar texto en cualquier app (WhatsApp, Telegram, Chrome, Notas…). Al pulsar **Mimimi**, el texto seleccionado se transforma y se **copia al portapapeles** listo para pegar.
 
 - 🪶 Ligerísima: sin permisos, sin internet, sin anuncios.
 - 🔤 Respeta mayúsculas y tildes.
@@ -29,7 +29,7 @@ Mimimi es una app Android **sin interfaz y sin icono**. Se integra en el menú c
 
 1. Abre en el móvil la [última Release](https://github.com/DaniBall/android-mimimi/releases/latest) y descarga `mimimi.apk`.
 2. Ábrelo y, si te lo pide, permite **instalar apps desconocidas** para tu navegador.
-3. Pulsa **Instalar**.
+3. Pulsa **Instalar** y abre **Mimimi** una vez desde el cajón de apps para activar el botón de ajustes rápidos.
 
 📖 Guía detallada paso a paso, uso y solución de problemas: **[GUIA.md](GUIA.md)**
 
@@ -39,7 +39,7 @@ Mimimi es una app Android **sin interfaz y sin icono**. Se integra en el menú c
 2. En el menú flotante pulsa **⋮** → **Mimimi**.
 3. Pega el resultado donde quieras.
 
-¿La app no deja seleccionar texto (WhatsApp, Claude…)? Usa **Compartir → Mimimi** o copia el texto y pulsa el botón **Mimimi portapapeles** de los ajustes rápidos. Detalles en [GUIA.md](GUIA.md#apps-donde-no-se-puede-seleccionar-texto-whatsapp-claude).
+¿La app no deja seleccionar texto (WhatsApp, Claude…)? Copia el texto y pulsa el botón **Mimimi portapapeles** de los ajustes rápidos. Detalles en [GUIA.md](GUIA.md#apps-donde-no-se-puede-seleccionar-texto-whatsapp-claude).
 
 ## 🔄 Reglas de transformación
 

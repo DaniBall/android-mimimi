@@ -20,7 +20,7 @@ El APK se compila automáticamente con GitHub Actions en cada push y se publica 
 
 Requiere Android 6.0 o superior.
 
-> ⚠️ La app **no tiene icono** en el cajón de aplicaciones: es normal. Solo aparece en el menú de selección de texto.
+> Tras instalar, **abre Mimimi una vez** desde el cajón de aplicaciones: Android no activa el botón de ajustes rápidos hasta que la app se ha abierto.
 
 ## 3. Cómo usarla
 
@@ -43,8 +43,8 @@ Algunas apps no usan el menú de selección estándar de Android (en WhatsApp se
 1. Mantén pulsado el mensaje y pulsa **Compartir** (en WhatsApp: ⋮ → *Compartir*, o selecciónalo desde otra app que lo permita).
 2. Elige **Mimimi** en la lista. El resultado queda copiado.
 
-**B) Botón de ajustes rápidos (la más cómoda)**
-1. Una sola vez: despliega los ajustes rápidos (desliza dos veces desde arriba), pulsa ✏️ *Editar* y arrastra **Mimimi portapapeles** a tus botones (requiere Android 7+).
+**B) Botón de ajustes rápidos (la más cómoda, y la única en WhatsApp)**
+1. Una sola vez: abre la app **Mimimi** desde el cajón de aplicaciones y pulsa *Añadir botón a ajustes rápidos*. Si tu Android no lo ofrece, despliega los ajustes rápidos (desliza dos veces desde arriba), pulsa ✏️ *Editar* y arrastra **Mimimi portapapeles** a tus botones (requiere Android 7+).
 2. Copia el mensaje normalmente (en WhatsApp: mantén pulsado → icono de copiar).
 3. Pulsa el botón **Mimimi portapapeles**. El texto del portapapeles se transforma y ya puedes pegarlo.
 
@@ -59,4 +59,5 @@ Algunas apps no usan el menú de selección estándar de Android (en WhatsApp se
 |---|---|
 | No aparece "Mimimi" en el menú | Pulsa ⋮ en el menú de selección; algunas apps (p. ej. ciertos teclados o apps bancarias) no admiten acciones de texto. |
 | "App no instalada" | Desinstala la versión anterior y vuelve a instalar. |
-| No encuentro la app | No tiene icono; búscala en Ajustes → Aplicaciones. |
+| No aparece el botón en ajustes rápidos | Abre la app Mimimi una vez y pulsa *Añadir botón*. Reinicia el móvil si sigue sin salir. |
+| WhatsApp no deja compartir el texto | Normal: copia el mensaje y usa el botón de ajustes rápidos. |
