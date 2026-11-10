@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/img/icono.png" width="120" alt="Icono de Mimimi"></p>
+
 # Guía de usuario de Mimimi
 
 Mimimi añade la opción **"Mimimi"** al menú que aparece al seleccionar texto en Android. Convierte todas las vocales en "i" (respetando mayúsculas y tildes) y copia el resultado al portapapeles.
@@ -19,6 +21,10 @@ El APK se compila automáticamente con GitHub Actions en cada push y se publica 
 4. Si Google Play Protect avisa de una "app desconocida", pulsa **Más detalles → Instalar de todas formas** (la app no está en Play Store, por eso avisa).
 
 Requiere Android 6.0 o superior.
+
+Al abrir Mimimi verás esta pantalla. Pulsa **Añadir botón a ajustes rápidos**:
+
+<p align="center"><img src="docs/img/inicio.png" width="260" alt="Pantalla de inicio de Mimimi"></p>
 
 > Tras instalar, **abre Mimimi una vez** desde el cajón de aplicaciones: Android no activa el botón de ajustes rápidos hasta que la app se ha abierto.
 
@@ -42,6 +48,8 @@ En los **campos de escritura**, Mimimi **reemplaza el texto seleccionado** direc
 2. Selecciónalo (mantén pulsado → *Seleccionar todo*).
 3. Pulsa ⋮ → **Mimimi**. El texto se transforma en el sitio; solo queda enviarlo.
 
+![Seleccionar el texto del cuadro de mensaje y pulsar Mimimi](docs/img/seleccion.png)
+
 Para responder con burla a un mensaje de WhatsApp: cópialo, pégalo en tu cuadro de texto, selecciónalo y pulsa Mimimi.
 
 ### Apps donde no se puede seleccionar texto (WhatsApp, Claude…)
@@ -56,6 +64,10 @@ Algunas apps no usan el menú de selección estándar de Android (en WhatsApp se
 1. Una sola vez: abre la app **Mimimi** desde el cajón de aplicaciones y pulsa *Añadir botón a ajustes rápidos*. Si tu Android no lo ofrece, despliega los ajustes rápidos (desliza dos veces desde arriba), pulsa ✏️ *Editar* y arrastra **Mimimi portapapeles** a tus botones (requiere Android 7+).
 2. Copia el mensaje normalmente (en WhatsApp: mantén pulsado → icono de copiar).
 3. Pulsa el botón **Mimimi portapapeles**. El texto del portapapeles se transforma y ya puedes pegarlo.
+
+![Copiar el mensaje, pulsar Mimimi portapapeles y pegar](docs/img/ajustes-rapidos.png)
+
+<sub>Las imágenes son ilustraciones; el aspecto real depende de tu móvil y de la app.</sub>
 
 ## 4. Actualizar y desinstalar
 

@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🐭 Mimimi
+<img src="docs/img/icono.png" width="128" alt="Icono de Mimimi">
+
+# Mimimi
 
 **Convierte cualquier texto en "mimimi" desde el menú de selección de Android.**
 
@@ -37,9 +39,15 @@ Mimimi es una app Android **casi sin interfaz** (solo una pantalla de configurac
 
 1. Mantén pulsado un texto para seleccionarlo.
 2. En el menú flotante pulsa **⋮** → **Mimimi**.
+![Seleccionar texto y pulsar Mimimi](docs/img/seleccion.png)
+
 3. Pega el resultado donde quieras. En campos de escritura (p. ej. el cuadro de mensaje de WhatsApp) el texto **se reemplaza directamente**.
 
 ¿La app no deja seleccionar texto (WhatsApp, Claude…)? Copia el texto y pulsa el botón **Mimimi portapapeles** de los ajustes rápidos. Detalles en [GUIA.md](GUIA.md#apps-donde-no-se-puede-seleccionar-texto-whatsapp-claude).
+
+![Copiar, pulsar el botón de ajustes rápidos y pegar](docs/img/ajustes-rapidos.png)
+
+<sub>Las imágenes son ilustraciones; el aspecto real depende de tu móvil y de la app.</sub>
 
 ## 🔄 Reglas de transformación
 
